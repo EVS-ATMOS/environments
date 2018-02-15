@@ -1,0 +1,30 @@
+#execute
+#export COIN_INSTALL_DIR=$HOME/CONDA_DIR/envs/arm-sapr-tools
+#eg export COIN_INSTALL_DIR=/Users/scollis/anaconda3/envs/arm-sapr-tools
+name: arm-sapr-tools
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - boto
+  - boto3
+  - cython
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - xarray
+  - netcdf4
+  - nose
+  - pytest
+  - basemap
+  - trmm_rsl
+  - wradlib
+  - cartopy
+  - coincbc=2.9.9
+  - pip:
+     - git+https://github.com/jjhelmus/CyLP.git@py3
+     - git+https://github.com/ARM-DOE/pyart
+     - git+https://github.com/CSU-Radarmet/CSU_RadarTools.git
+#TODO add arm_radar_tools
