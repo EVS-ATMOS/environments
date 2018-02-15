@@ -27,4 +27,4 @@ dependencies:
      - git+https://github.com/jjhelmus/CyLP.git@py3
      - git+https://github.com/ARM-DOE/pyart
      - git+https://github.com/CSU-Radarmet/CSU_RadarTools.git
-#TODO add arm_radar_tools
+     - git+https://github.com/EVS-ATMOS/arm_sapr_tools.git
