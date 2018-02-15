@@ -15,3 +15,6 @@ The same as pyart-full but with boto and boto3 installed to allow interaction in
 Ensure COIN_INSTALL_DIR environment variable is set. ie: 
 
 export COIN_INSTALL_DIR=$HOME/CONDA_DIR/envs/aws-radar
+
+### arm-sapr-tools
+Again,similar to the above but specifically designed to run on ARM's Data Management Facility 
