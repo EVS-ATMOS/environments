@@ -1,0 +1,36 @@
+#execute
+#export COIN_INSTALL_DIR=/Users/USERNAME/CONDA_DIR/envs/cmac2
+#eg export COIN_INSTALL_DIR=/Users/scollis/anaconda3/envs/cmac2
+#NEW!! You will need to cludge your ccflage
+#export CFLAGS='-std=c++11'
+name: cmac2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - cython
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - distributed
+  - dask
+  - xarray
+  - netcdf4
+  - nose
+  - basemap
+  - trmm_rsl
+  - wradlib
+  - cartopy
+  - coincbc=2.9.9
+  - clang_osx-64
+  - clangxx_osx-64
+#  - pip:
+#     - git+https://github.com/jjhelmus/CyLP.git@py3
+#     - git+https://github.com/ARM-DOE/pyart
+#     - git+https://github.com/CSU-Radarmet/CSU_RadarTools.git
+#     - decorator==4.1.1
+#     - networkx==1.11
+#     - scikit-fuzzy==0.3
+#     - git+https://github.com/EVS-ATMOS/cmac2.0.git
