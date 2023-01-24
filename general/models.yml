@@ -1,0 +1,14 @@
+name: models
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - xarray
+  - netcdf4
+  - herbie-data
+  - arm_pyart
+  - xmovie
